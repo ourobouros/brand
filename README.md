@@ -13,6 +13,14 @@ address bar is your glovo address.
 > exmaple of glovo address:
 > https://glovoapp.com/web/bcn/wok-to-walk
 
+### Customer location
+We support extra query params in the url. The params supported are
+- _delivery_address_lat, delivery_address_lng_: Latitude & longitude of the delivery address
+- _delivery_address_details_ : Details of the address such as "Door, Floor, ..."
+
+So you can create an url like
+> https://glovoapp.com/web/bcn/wok-to-walk?delivery_address_lat=41.395572&delivery_address_lng=2.189737&delivery_address_details=planta1
+
 
 ## Widget
 
@@ -31,6 +39,8 @@ you just need to add this simple widget:
 
 
 View a [demo](http://codepen.io/glovo/pen/rjzBbJ) or check the examples folder
+
+**[Remember]** you can add parameters to the address. See the _**Customer Section**_ just above.
 
 ## iFrame
 
